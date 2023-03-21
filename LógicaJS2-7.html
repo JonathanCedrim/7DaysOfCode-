@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lógica JS II</title>
+    </head>
+    <body>
+        <h1>Display</h1>
+        <script>
+            let nome, idade, linguagem;
+
+            nome = prompt("Digite seu nome");
+            idade = prompt("Digite sua idade");
+            linguagem = prompt("Digite a linguagem usada");
+
+            document.write("Olá " + nome + " você tem " + idade + " anos e já está aprendendo " + linguagem );
+            
+            document.write("<br />");
+
+            if(prompt("Você gosta de estudar " + linguagem + " ? ") == 1 ) {
+                document.write("Parabéns, continue estudando");
+            }  else {
+                document.write("Que pena, já tentou aprender outra linguagem? ");
+            }
+        </script>
+    </body>
+    <footer>
+
+    </footer>
+</html>
